@@ -1,0 +1,20 @@
+SPM mini-project API smoke test
+===============================
+/: HTTP 200
+/frontend/spm.html: HTTP 200
+/frontend/spm.js: HTTP 200
+/api/health: HTTP 200
+/api/spm/data: HTTP 200
+Seeded SPM records: {'requirements': 6, 'tasks': 11, 'risks': 6, 'team': 7, 'changes': 4}
+Planned effort: 58.0 person-days; allocated: 58.0
+requirement: create HTTP 201, update HTTP 200
+requirement: delete HTTP 200
+task: create HTTP 201, update HTTP 200
+task: delete HTTP 200
+risk: create HTTP 201, update HTTP 200
+risk: delete HTTP 200
+team: create HTTP 201, update HTTP 200
+team: delete HTTP 200
+change: create HTTP 201, update HTTP 200
+change: delete HTTP 200
+RESULT: all tested API operations passed.

@@ -1,0 +1,15 @@
+test_actual_variance (test_calculator.CalculatorTests.test_actual_variance) ... ok
+test_contingency_bounds_rejected (test_calculator.CalculatorTests.test_contingency_bounds_rejected) ... ok
+test_invalid_duration_rejected (test_calculator.CalculatorTests.test_invalid_duration_rejected) ... ok
+test_personnel_formula_and_total (test_calculator.CalculatorTests.test_personnel_formula_and_total) ... ok
+test_requirement_needs_id_and_title (test_spm_validation.SPMValidationTests.test_requirement_needs_id_and_title) ... ok
+test_requirement_valid_values_are_normalized (test_spm_validation.SPMValidationTests.test_requirement_valid_values_are_normalized) ... ok
+test_risk_rejects_likelihood_outside_1_to_3 (test_spm_validation.SPMValidationTests.test_risk_rejects_likelihood_outside_1_to_3) ... ok
+test_task_rejects_negative_effort (test_spm_validation.SPMValidationTests.test_task_rejects_negative_effort) ... ok
+test_task_rejects_week_outside_planning_window (test_spm_validation.SPMValidationTests.test_task_rejects_week_outside_planning_window) ... ok
+test_team_capacity_must_be_positive (test_spm_validation.SPMValidationTests.test_team_capacity_must_be_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

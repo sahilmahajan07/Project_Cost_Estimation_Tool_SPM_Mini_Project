@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+.DS_Store
+# Keep the demo database out of source control; schema and SQL seed instructions are tracked.
+database/pcet.db
